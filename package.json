@@ -1,0 +1,9 @@
+{
+  "name": "the-chain-times",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-page front-page site for THE CHAIN TIMES (plain HTML/CSS/JS)",
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}

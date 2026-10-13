@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Chain Times — Blocks Don’t Lie</title>
+<meta name="description" content="The Chain Times: a crypto research newsletter printed like a front page. All figures and articles on this page are placeholders.">
+<meta name="theme-color" content="#f3eee1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23a3141b'/%3E%3Ctext x='16' y='23' font-size='20' font-family='serif' font-weight='900' text-anchor='middle' fill='%23f3eee1'%3ECT%3C/text%3E%3C/svg%3E">
+<script>
+  (function () {
+    var root = document.documentElement;
+    root.classList.add('js');
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) { root.classList.add('reduced'); return; }
+    root.classList.add('intro');
+    setTimeout(function () { root.classList.remove('intro'); }, 5000);
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <filter id="rough" x="-5%" y="-10%" width="110%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4"/>
+  </filter>
+</svg>
+
+<a class="skip" href="#signup">Skip to signup</a>
+
+<header class="hero">
+  <div class="stack">
+    <div class="sheet">
+
+      <div class="ticker" role="region" aria-label="Placeholder price ticker">
+        <div class="ticker-track">
+          <div class="ticker-group">
+            <span class="tick"><b>SOL/USD</b> 142.37 <i class="up">▲ 1.82%</i></span>
+            <span class="tick"><b>BTC/USD</b> 61,204.50 <i class="dn">▼ 0.64%</i></span>
+            <span class="tick"><b>ETH/USD</b> 2,918.10 <i class="up">▲ 0.37%</i></span>
+            <span class="tick"><b>SOL/BTC</b> 0.00233 <i class="dn">▼ 0.12%</i></span>
+            <span class="tick"><b>ETH/BTC</b> 0.0477 <i class="up">▲ 0.21%</i></span>
+            <span class="tick tick-note">Placeholder data — not real quotes</span>
+            <span class="tick"><b>SOL/USD</b> 142.37 <i class="up">▲ 1.82%</i></span>
+            <span class="tick"><b>BTC/USD</b> 61,204.50 <i class="dn">▼ 0.64%</i></span>
+            <span class="tick"><b>ETH/USD</b> 2,918.10 <i class="up">▲ 0.37%</i></span>
+            <span class="tick"><b>SOL/BTC</b> 0.00233 <i class="dn">▼ 0.12%</i></span>
+            <span class="tick"><b>ETH/BTC</b> 0.0477 <i class="up">▲ 0.21%</i></span>
+            <span class="tick tick-note">Placeholder data — not real quotes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="masthead">
+        <div class="mast-meta">
+          <span>The research letter that reads the footnotes</span>
+          <span>Free · Sundays</span>
+        </div>
+        <h1 class="nameplate" aria-label="The Chain Times">THE CHAIN TIMES</h1>
+        <div class="dateline">
+          <span class="mono">Vol. 1, No. 1</span>
+          <time class="mono" id="today" datetime="2026-10-13">Tuesday, 13 October 2026</time>
+          <span class="mono">Late Block Edition</span>
+        </div>
+      </div>
+
+      <div class="lead">
+        <p class="kicker">Special Report</p>
+        <h2 class="big-head">BLOCKS DON’T LIE</h2>
+        <p class="deck">People do, prices do, and press releases certainly do. The ledger, at least, keeps its books straight.</p>
+      </div>
+
+      <div class="front-cols">
+        <div class="col col-left">
+          <article class="teaser">
+            <p class="kicker">Markets</p>
+            <h3>Majors Hold The Line, Nobody Is Sure Which One</h3>
+            <p class="byline">By Ada Placeholder</p>
+            <p class="dropcap">Prices wandered up and down this week with the quiet confidence of a tide that has read the charts. Our desk counted every candle so you do not have to.</p>
+          </article>
+          <article class="teaser minor">
+            <p class="kicker">On-chain</p>
+            <h3>The Mempool Is A Waiting Room</h3>
+            <p>Transactions queued politely. A few cut in line and paid for the privilege.</p>
+          </article>
+        </div>
+
+        <div class="col col-mid">
+          <div class="coin-stage" role="img" aria-label="A large coin slowly spinning, printed in halftone dots">
+            <div class="coin-tilt">
+              <div class="coin">
+                <span class="rim" style="--i:-6"></span>
+                <span class="rim" style="--i:-5"></span>
+                <span class="rim" style="--i:-4"></span>
+                <span class="rim" style="--i:-3"></span>
+                <span class="rim" style="--i:-2"></span>
+                <span class="rim" style="--i:-1"></span>
+                <span class="rim" style="--i:0"></span>
+                <span class="rim" style="--i:1"></span>
+                <span class="rim" style="--i:2"></span>
+                <span class="rim" style="--i:3"></span>
+                <span class="rim" style="--i:4"></span>
+                <span class="rim" style="--i:5"></span>
+                <span class="rim" style="--i:6"></span>
+
+                <div class="face front">
+                  <div class="tone"></div>
+                  <svg class="art" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+                    <path id="ringFront" fill="none" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/>
+                    <text class="ring-text" textLength="498" lengthAdjust="spacing"><textPath href="#ringFront">THE CHAIN TIMES ✦ BLOCKS DON’T LIE ✦ ONE CT ✦</textPath></text>
+                    <circle cx="100" cy="100" r="69" fill="none" stroke="#14110f" stroke-width="1.4"/>
+                    <g transform="rotate(-32 100 100)" fill="none" stroke-linejoin="round">
+                      <rect x="46" y="80" width="66" height="40" rx="20" stroke="#f3eee1" stroke-width="15"/>
+                      <rect x="46" y="80" width="66" height="40" rx="20" stroke="#a3141b" stroke-width="8"/>
+                      <rect x="88" y="80" width="66" height="40" rx="20" stroke="#f3eee1" stroke-width="15"/>
+                      <rect x="88" y="80" width="66" height="40" rx="20" stroke="#a3141b" stroke-width="8"/>
+                    </g>
+                  </svg>
+                </div>
+
+                <div class="face back">
+                  <div class="tone"></div>
+                  <svg class="art" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
+                    <path id="ringBack" fill="none" d="M100,100 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0"/>
+                    <text class="ring-text" textLength="498" lengthAdjust="spacing"><textPath href="#ringBack">NOT FINANCIAL ADVICE ✦ NOT FINANCIAL ADVICE ✦</textPath></text>
+                    <circle cx="100" cy="100" r="69" fill="none" stroke="#14110f" stroke-width="1.4"/>
+                    <text x="100" y="120" text-anchor="middle" class="monogram">CT</text>
+                    <text x="100" y="146" text-anchor="middle" class="monogram-sub">VOL. 1 · NO. 1</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="coin-shadow"></div>
+          </div>
+
+          <p class="fig-caption mono">Fig. 1 — The Coin, rotating slowly. Placeholder art.</p>
+          <a class="stamp" href="#signup" id="stamp">Subscribe</a>
+          <p class="stamp-note mono">Free · Sunday mornings · Unsubscribe any time</p>
+        </div>
+
+        <div class="col col-right">
+          <article class="teaser">
+            <p class="kicker">Inside</p>
+            <h3>Why The Ledger Never Forgets, And Why That Is Fine</h3>
+            <p class="byline">By Ben Sample</p>
+            <p class="dropcap">Every block points at the one before it, like a queue of very patient people. We followed the line to the end and took notes. Continued on page 2.</p>
+          </article>
+          <article class="teaser minor">
+            <p class="kicker">Opinion</p>
+            <h3>Slow Blocks, Fast Takes</h3>
+            <p>Why the best analysis arrives a little after the excitement has left.</p>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="inside" aria-labelledby="inside-title">
+    <div class="section-bar">
+      <h2 id="inside-title" class="mono">Inside this edition</h2>
+    </div>
+    <div class="columns3">
+      <article class="story">
+        <p class="kicker">Markets</p>
+        <h3>Majors Drift Sideways As Traders Await Anything At All</h3>
+        <p class="byline">By Ada Placeholder · 4 min read</p>
+        <p>Volume thinned out, spreads widened and the order books looked like a library on a public holiday. Analysts offered a range of explanations, each confidently different. We suggest a cup of tea and a longer time horizon.</p>
+      </article>
+      <article class="story">
+        <p class="kicker">On-chain</p>
+        <h3>Dormant Wallet Wakes Up, Checks The Time, Goes Back To Sleep</h3>
+        <p class="byline">By Cyrus Example · 3 min read</p>
+        <p>An address untouched for years moved a modest sum to itself and went quiet again. Observers called it a signal. The wallet, reached for comment, did not reply, which is also what wallets do.</p>
+      </article>
+      <article class="story">
+        <p class="kicker">Opinion</p>
+        <h3>In Defence Of The Boring Block</h3>
+        <p class="byline">By Dana Lorem · 5 min read</p>
+        <p>Nothing happened in block after block, and that is the whole achievement. Reliability is not exciting until it is missing. A plea to celebrate the unremarkable and to distrust anything that needs a drumroll.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="pull" aria-label="Pull quote">
+    <blockquote>
+      <p>The ledger never flatters you. That is rather the point.</p>
+      <footer class="mono">— The Editors, placeholder quotation</footer>
+    </blockquote>
+  </section>
+
+  <section class="numbers" aria-labelledby="numbers-title">
+    <div class="numbers-box">
+      <h2 id="numbers-title" class="numbers-title">This week in numbers</h2>
+      <div class="figures">
+        <div class="figure">
+          <p class="num" data-count="3.2" data-decimals="1" data-prefix="$" data-suffix="B">$3.2B</p>
+          <p class="label mono">Imaginary volume, rounded up</p>
+        </div>
+        <div class="figure">
+          <p class="num" data-count="68.5" data-decimals="1" data-suffix="%">68.5%</p>
+          <p class="label mono">Threads we chose not to quote</p>
+        </div>
+        <div class="figure">
+          <p class="num" data-count="2418" data-decimals="0">2,418</p>
+          <p class="label mono">Wallets squinted at, carefully</p>
+        </div>
+      </div>
+      <p class="numbers-note mono">All figures are placeholders and not real data.</p>
+    </div>
+  </section>
+
+  <section class="signup" id="signup" aria-labelledby="signup-title">
+    <div class="coupon">
+      <svg class="scissors" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" focusable="false">
+        <circle cx="7" cy="9" r="4.5"/>
+        <circle cx="7" cy="25" r="4.5"/>
+        <path d="M11 12 L31 26 M11 22 L31 8"/>
+      </svg>
+      <div class="coupon-copy">
+        <p class="kicker">Clip &amp; send</p>
+        <h2 id="signup-title">Subscribe to the Sunday edition</h2>
+        <p>One email a week: three stories, one chart, no screaming. Cut along the dotted line and drop it in the box below.</p>
+        <p class="mono coupon-meta">Admit one reader · No. 000001 · Free</p>
+      </div>
+      <form class="coupon-form" id="signup-form" novalidate>
+        <label for="email" class="mono">Your email</label>
+        <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="reader@example.com" required>
+        <fieldset>
+          <legend class="mono">Sections</legend>
+          <label class="check"><input type="checkbox" name="s" value="markets" checked> Markets</label>
+          <label class="check"><input type="checkbox" name="s" value="onchain" checked> On-chain</label>
+          <label class="check"><input type="checkbox" name="s" value="opinion"> Opinion</label>
+        </fieldset>
+        <button type="submit" class="clip-btn">Clip &amp; subscribe</button>
+        <p class="form-msg mono" id="form-msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <p class="foot-name">THE CHAIN TIMES</p>
+    <nav class="social" aria-label="Social links">
+      <a href="https://x.com" rel="noopener noreferrer" target="_blank">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <span>X</span>
+      </a>
+      <a href="https://t.me" rel="noopener noreferrer" target="_blank">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M21.8 3.2 2.6 10.6c-.8.3-.8 1.4 0 1.7l4.8 1.8 1.9 6c.2.7 1 .9 1.5.4l2.7-2.5 4.9 3.6c.6.4 1.4.1 1.6-.6L23 4.3c.2-.8-.5-1.4-1.2-1.1zM9.6 13.4l8.6-5.3-6.9 6.5-.3 3z"/></svg>
+        <span>Telegram</span>
+      </a>
+    </nav>
+    <p class="disclaimer mono">Not financial advice. Placeholder content for design purposes.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
